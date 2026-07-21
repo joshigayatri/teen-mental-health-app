@@ -1,0 +1,32 @@
+# Virtual Environment
+venv/
+.venv/
+
+# Python Cache & Compiled Files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Git & Repository Files
+.git/
+.gitignore
+
+# Development Notebooks & Checkpoints
+notebooks/
+.ipynb_checkpoints/
+
+# IDE & Editor Configuration
+.vscode/
+.idea/
+
+# Large Raw Data CSV Files (preserves directory structure)
+data/raw/*.csv
+
+# Documentation Files
+*.md
+
+# Environment & Secret Files
+.env
+.env.*
+*.env
